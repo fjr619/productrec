@@ -10,6 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SnapHelper;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -61,8 +62,9 @@ public class MainActivity extends AppCompatActivity {
         appListStartAdapter.updateList(appList);
 
 
-        SnapHelper snapHelperStart = new StartSnapHelper();
-        snapHelperStart.attachToRecyclerView(startSnapRecyclerView);
+//        SnapHelper snapHelperStart = new StartSnapHelper();
+        GravitySnapHelper snapHelper = new GravitySnapHelper(Gravity.CENTER);
+        snapHelper.attachToRecyclerView(startSnapRecyclerView);
     }
 
 
