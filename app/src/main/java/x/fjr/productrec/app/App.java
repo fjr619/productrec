@@ -1,4 +1,4 @@
-package x.fjr.productrec;
+package x.fjr.productrec.app;
 
 /**
  * Created by franky.wijanarko on 01/03/18.

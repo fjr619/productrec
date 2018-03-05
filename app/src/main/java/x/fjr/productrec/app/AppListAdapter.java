@@ -1,4 +1,4 @@
-package x.fjr.productrec;
+package x.fjr.productrec.app;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import x.fjr.productrec.R;
 
 /**
  * Created by amitshekhar on 14/01/17.
